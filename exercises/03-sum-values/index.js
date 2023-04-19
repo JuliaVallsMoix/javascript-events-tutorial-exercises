@@ -6,4 +6,8 @@ window.calculateSumListener = function() {
 	var stringB = document.getElementById("secondNumber").value;
 
 	//your code goes here
+	document.querySelector('#resultNumber').value = +stringA + +stringB;
+
+	// per què s'ha de posar el signe de + abans dels dos strings perquè surti bé? 
+	
 };
