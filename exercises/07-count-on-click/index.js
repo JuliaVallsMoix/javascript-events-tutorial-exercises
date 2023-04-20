@@ -20,5 +20,5 @@ window.decreaseCounter = function decreaseCounter() {
 	counter--;
 	document.getElementById('screen').innerHTML = 'The counter value is '+counter;
 
-	/* I have done the same as in the solution and I still don't see the button. (I have already added it in html.) */
+	
 }

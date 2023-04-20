@@ -9,5 +9,6 @@ window.calculateSumListener = function() {
 	document.querySelector('#resultNumber').value = +stringA + +stringB;
 
 	// per què s'ha de posar el signe de + abans dels dos strings perquè surti bé? 
+	/* Per convertir el string en número. */
 	
 };
